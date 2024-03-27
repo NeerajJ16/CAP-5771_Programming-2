@@ -66,7 +66,7 @@ def compute():
     # Dictionary of 5 datasets. e.g., dct["nc"] = [data, labels]
     # keys: 'nc', 'nm', 'bvv', 'add', 'b' (abbreviated datasets)
     dct = answers["4A: datasets"] = {}
-    n_samples = 500
+    n_samples = 100
     seed = 42
     nc = datasets.make_circles(n_samples=n_samples, factor=0.5, noise=0.05, random_state=seed)
     dct['nc']=[nc[0],nc[1]]
