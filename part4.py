@@ -111,7 +111,7 @@ def compute():
         acc.append(dataset_cluster)
         hierarchical_dict_plotting[dataset_i]=acc
  
-    myplt.plot_part1C(hierarchical_dict_plotting,'question4.jpg')
+    myplt.plot_part1C(hierarchical_dict_plotting,'part4Question2.jpg')
     # dct value: list of dataset abbreviations (see 1.C)
     dct = answers["4B: cluster successes"] = ["nc","nm"]
 
@@ -135,7 +135,7 @@ def compute():
         acc.append(dataset_cluster)
         hierarchical_dict_plotting[dataset_i]=acc
  
-    myplt.plot_part1C(hierarchical_dict_plotting,'question4_C.jpg')    
+    myplt.plot_part1C(hierarchical_dict_plotting,'part4Question3.jpg')    
 
     return answers
 
