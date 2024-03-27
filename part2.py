@@ -90,7 +90,7 @@ def compute():
     """
   
     X=np.concatenate([answers["2A: blob"][0],answers['2A: blob'][1]],axis=1)
-    dct = answers["2B: fit_kmeans"] = fit_kmeans(X,k=5)
+    dct = answers["2B: fit_kmeans"] = fit_kmeans
     
     """
     C.	Plot the SSE as a function of k for k=1,2,….,8, and choose the optimal k based on the elbow method.
