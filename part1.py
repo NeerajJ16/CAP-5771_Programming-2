@@ -104,11 +104,12 @@ def compute():
     myplt.plot_part1C(Kmeans_value,'Part1Question3.jpg')
 
 
-    dct = answers["1C: cluster successes"] = {"xy": [3,4], "zx": [2]} 
+     dct=answers["1C: cluster successes"] = {"bvv": [3], "add": [3], "b": [3]} 
 
     # dct value: return a list of 0 or more dataset abbreviations (list has zero or more elements, 
     # which are abbreviated dataset names as strings)
-    dct = answers["1C: cluster failures"] = ["nc"]
+
+    dct=answers["1C: cluster failures"] = ["nc","nm"]
 
     """
     D. Repeat 1.C a few times and comment on which (if any) datasets seem to be sensitive to the choice of initialization for the k=2,3 cases. You do not need to add the additional plots to your report.
